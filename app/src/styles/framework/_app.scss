@@ -1,0 +1,25 @@
+html {
+	font-size: 12px;
+}
+
+body {
+	background-color: $background-gray;
+	font-family: $primary;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+::selection {
+	color: #ffffff;
+	background: #44bc75;
+}
