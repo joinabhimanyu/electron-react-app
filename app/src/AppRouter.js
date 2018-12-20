@@ -21,8 +21,9 @@ class AppRouter extends Component {
 	}
 
 	render() {
+		const { history } = this.props;
 		return (
-			<Router history={this.props.history}>
+			<Router history={history}>
 				<div className="app">
 					<AuthedRoute component={Header} redirect={false} showLoader={false} />
 					<Switch>
